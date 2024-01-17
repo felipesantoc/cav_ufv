@@ -12,9 +12,11 @@ email=oliveirajc@ufv.br
 
 about=calculo da Cota Area Volume a partir de um modelo digital do Terreno
 
-tracker=http://bugs
-repository=http://repo
+tracker=https://github.com/felipesantoc/cav_ufv/issues
+repo=https://github.com/felipesantoc/cav_ufv
 # End of mandatory metadata
+
+
 
 # Recommended items:
 
