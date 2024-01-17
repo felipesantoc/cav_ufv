@@ -1,0 +1,15 @@
+<RCC>
+  <qresource prefix="/plugins/CAV">
+    <file>simbolos/cabecalho.png</file>
+    <file>simbolos/email.png</file>
+    <file>simbolos/facebook.png</file>
+    <file>simbolos/icon.png</file>
+    <file>simbolos/instagram.png</file>
+    <file>simbolos/linkedin.png</file>
+    <file>simbolos/rodape.png</file>
+    <file>simbolos/whatsApp.png</file>
+    <file>simbolos/www.png</file>
+    <file>simbolos/Youtube.png</file>
+    <file>icon.png</file>
+  </qresource>
+</RCC>

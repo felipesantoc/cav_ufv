@@ -1,0 +1,1498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CAVDialogBase</class>
+ <widget class="QDialog" name="CAVDialogBase">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>958</width>
+    <height>698</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CAV</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout_3">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QFrame" name="frame_topo">
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QPushButton" name="btn_menu_cav">
+          <property name="minimumSize">
+           <size>
+            <width>70</width>
+            <height>22</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string>CAV</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btn_menu_contatos">
+          <property name="minimumSize">
+           <size>
+            <width>70</width>
+            <height>22</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string>Contatos</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btn_menu_sobre">
+          <property name="minimumSize">
+           <size>
+            <width>70</width>
+            <height>22</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <pointsize>11</pointsize>
+           </font>
+          </property>
+          <property name="cursor">
+           <cursorShape>PointingHandCursor</cursorShape>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: rgb(0, 0, 0);</string>
+          </property>
+          <property name="text">
+           <string>Sobre</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QFrame" name="frame_principal">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <item>
+         <widget class="QStackedWidget" name="Pages">
+          <property name="currentIndex">
+           <number>0</number>
+          </property>
+          <widget class="QWidget" name="pg_CAV">
+           <layout class="QHBoxLayout" name="horizontalLayout_6">
+            <item>
+             <widget class="QTabWidget" name="tabWidget">
+              <property name="currentIndex">
+               <number>0</number>
+              </property>
+              <widget class="QWidget" name="tab_4">
+               <attribute name="title">
+                <string>Análise (Curva CAV)</string>
+               </attribute>
+               <layout class="QVBoxLayout" name="verticalLayout_5">
+                <item>
+                 <widget class="QFrame" name="frame">
+                  <property name="frameShape">
+                   <enum>QFrame::StyledPanel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Raised</enum>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_2">
+                   <item>
+                    <widget class="QFrame" name="frame_4">
+                     <property name="frameShape">
+                      <enum>QFrame::StyledPanel</enum>
+                     </property>
+                     <property name="frameShadow">
+                      <enum>QFrame::Raised</enum>
+                     </property>
+                     <layout class="QVBoxLayout" name="verticalLayout_6">
+                      <item>
+                       <widget class="QFrame" name="frame_5">
+                        <property name="enabled">
+                         <bool>true</bool>
+                        </property>
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="minimumSize">
+                         <size>
+                          <width>0</width>
+                          <height>0</height>
+                         </size>
+                        </property>
+                        <property name="autoFillBackground">
+                         <bool>true</bool>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">border-color: rgb(0, 0, 0);</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <layout class="QVBoxLayout" name="verticalLayout_9">
+                         <item>
+                          <widget class="QCheckBox" name="checkBox_4">
+                           <property name="text">
+                            <string>Vetor limite do reservatorio (*.shp)</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <layout class="QHBoxLayout" name="horizontalLayout_10">
+                           <item>
+                            <widget class="QComboBox" name="comboBox_5">
+                             <property name="enabled">
+                              <bool>false</bool>
+                             </property>
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="editable">
+                              <bool>false</bool>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QToolButton" name="toolButton_6">
+                             <property name="enabled">
+                              <bool>false</bool>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>50</width>
+                               <height>16777215</height>
+                              </size>
+                             </property>
+                             <property name="text">
+                              <string>...</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </item>
+                        </layout>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="label">
+                        <property name="text">
+                         <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Reservatório de Referência - MDT&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QSplitter" name="splitter">
+                        <property name="orientation">
+                         <enum>Qt::Horizontal</enum>
+                        </property>
+                        <widget class="QComboBox" name="comboBox">
+                         <property name="sizePolicy">
+                          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                           <horstretch>0</horstretch>
+                           <verstretch>0</verstretch>
+                          </sizepolicy>
+                         </property>
+                         <property name="currentText">
+                          <string/>
+                         </property>
+                        </widget>
+                        <widget class="QToolButton" name="toolButton">
+                         <property name="maximumSize">
+                          <size>
+                           <width>50</width>
+                           <height>16777215</height>
+                          </size>
+                         </property>
+                         <property name="text">
+                          <string>...</string>
+                         </property>
+                        </widget>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QListWidget" name="listWidget">
+                        <property name="minimumSize">
+                         <size>
+                          <width>0</width>
+                          <height>10</height>
+                         </size>
+                        </property>
+                        <property name="verticalScrollBarPolicy">
+                         <enum>Qt::ScrollBarAsNeeded</enum>
+                        </property>
+                        <property name="sizeAdjustPolicy">
+                         <enum>QAbstractScrollArea::AdjustIgnored</enum>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QFrame" name="frame_3">
+                        <property name="sizePolicy">
+                         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                          <horstretch>0</horstretch>
+                          <verstretch>0</verstretch>
+                         </sizepolicy>
+                        </property>
+                        <property name="minimumSize">
+                         <size>
+                          <width>0</width>
+                          <height>0</height>
+                         </size>
+                        </property>
+                        <property name="autoFillBackground">
+                         <bool>true</bool>
+                        </property>
+                        <property name="styleSheet">
+                         <string notr="true">border-color: rgb(0, 0, 0);</string>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <layout class="QVBoxLayout" name="verticalLayout_8">
+                         <item>
+                          <widget class="QCheckBox" name="checkBox_2">
+                           <property name="text">
+                            <string>Reservatório Atualizado - MDT</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <layout class="QHBoxLayout" name="horizontalLayout_7">
+                           <item>
+                            <widget class="QComboBox" name="comboBox_2">
+                             <property name="enabled">
+                              <bool>false</bool>
+                             </property>
+                             <property name="sizePolicy">
+                              <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+                               <horstretch>0</horstretch>
+                               <verstretch>0</verstretch>
+                              </sizepolicy>
+                             </property>
+                             <property name="editable">
+                              <bool>false</bool>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QToolButton" name="toolButton_2">
+                             <property name="enabled">
+                              <bool>false</bool>
+                             </property>
+                             <property name="maximumSize">
+                              <size>
+                               <width>50</width>
+                               <height>16777215</height>
+                              </size>
+                             </property>
+                             <property name="text">
+                              <string>...</string>
+                             </property>
+                            </widget>
+                           </item>
+                          </layout>
+                         </item>
+                         <item>
+                          <widget class="QListWidget" name="listWidget_2">
+                           <property name="enabled">
+                            <bool>false</bool>
+                           </property>
+                           <property name="minimumSize">
+                            <size>
+                             <width>0</width>
+                             <height>10</height>
+                            </size>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QCheckBox" name="checkBox_6">
+                           <property name="enabled">
+                            <bool>false</bool>
+                           </property>
+                           <property name="text">
+                            <string>Gerar uma imagem com a diferença entre Reservatório 1 e Reservatório 2</string>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="label_4">
+                        <property name="text">
+                         <string>Cota Máxima (m)</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QDoubleSpinBox" name="doubleSpinBox">
+                        <property name="decimals">
+                         <number>3</number>
+                        </property>
+                        <property name="maximum">
+                         <double>5000.000000000000000</double>
+                        </property>
+                        <property name="singleStep">
+                         <double>1.000000000000000</double>
+                        </property>
+                        <property name="stepType">
+                         <enum>QAbstractSpinBox::DefaultStepType</enum>
+                        </property>
+                        <property name="value">
+                         <double>0.000000000000000</double>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="label_6">
+                        <property name="text">
+                         <string>Cota Mínima (m)</string>
+                        </property>
+                        <property name="buddy">
+                         <cstring>doubleSpinBox_3</cstring>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QDoubleSpinBox" name="doubleSpinBox_3">
+                        <property name="decimals">
+                         <number>3</number>
+                        </property>
+                        <property name="maximum">
+                         <double>5000.000000000000000</double>
+                        </property>
+                        <property name="singleStep">
+                         <double>1.000000000000000</double>
+                        </property>
+                        <property name="value">
+                         <double>0.000000000000000</double>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QLabel" name="label_5">
+                        <property name="text">
+                         <string>Intervalo de cotas para análise (m)</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QDoubleSpinBox" name="doubleSpinBox_2">
+                        <property name="decimals">
+                         <number>3</number>
+                        </property>
+                        <property name="maximum">
+                         <double>5000.000000000000000</double>
+                        </property>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QFrame" name="frame_6">
+                     <property name="enabled">
+                      <bool>true</bool>
+                     </property>
+                     <property name="frameShape">
+                      <enum>QFrame::StyledPanel</enum>
+                     </property>
+                     <property name="frameShadow">
+                      <enum>QFrame::Raised</enum>
+                     </property>
+                     <layout class="QVBoxLayout" name="verticalLayout_4">
+                      <item>
+                       <widget class="QCheckBox" name="checkBox">
+                        <property name="enabled">
+                         <bool>true</bool>
+                        </property>
+                        <property name="text">
+                         <string>Gerar Relatorio</string>
+                        </property>
+                       </widget>
+                      </item>
+                      <item>
+                       <widget class="QFrame" name="frame_7">
+                        <property name="enabled">
+                         <bool>true</bool>
+                        </property>
+                        <property name="frameShape">
+                         <enum>QFrame::StyledPanel</enum>
+                        </property>
+                        <property name="frameShadow">
+                         <enum>QFrame::Raised</enum>
+                        </property>
+                        <layout class="QVBoxLayout" name="verticalLayout_7">
+                         <item>
+                          <widget class="QLabel" name="label_3">
+                           <property name="text">
+                            <string>Nome do Relatório:</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QSplitter" name="splitter_2">
+                           <property name="orientation">
+                            <enum>Qt::Horizontal</enum>
+                           </property>
+                           <widget class="QLineEdit" name="lineEdit">
+                            <property name="enabled">
+                             <bool>true</bool>
+                            </property>
+                            <property name="text">
+                             <string/>
+                            </property>
+                            <property name="readOnly">
+                             <bool>true</bool>
+                            </property>
+                           </widget>
+                           <widget class="QToolButton" name="toolButton_3">
+                            <property name="enabled">
+                             <bool>false</bool>
+                            </property>
+                            <property name="maximumSize">
+                             <size>
+                              <width>50</width>
+                              <height>16777215</height>
+                             </size>
+                            </property>
+                            <property name="text">
+                             <string>...</string>
+                            </property>
+                           </widget>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QCheckBox" name="checkBox_3">
+                           <property name="enabled">
+                            <bool>false</bool>
+                           </property>
+                           <property name="text">
+                            <string>Salvar curva CAV no formato *.CSV</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <layout class="QHBoxLayout" name="horizontalLayout_5">
+                           <item>
+                            <widget class="QCheckBox" name="checkBox_5">
+                             <property name="enabled">
+                              <bool>false</bool>
+                             </property>
+                             <property name="text">
+                              <string>Análise Estatística entre reservatorios - Nivel de significância</string>
+                             </property>
+                            </widget>
+                           </item>
+                           <item>
+                            <widget class="QComboBox" name="comboBox_6">
+                             <property name="enabled">
+                              <bool>false</bool>
+                             </property>
+                             <property name="currentIndex">
+                              <number>0</number>
+                             </property>
+                             <item>
+                              <property name="text">
+                               <string>1%</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>5%</string>
+                              </property>
+                             </item>
+                             <item>
+                              <property name="text">
+                               <string>10%</string>
+                              </property>
+                             </item>
+                            </widget>
+                           </item>
+                          </layout>
+                         </item>
+                         <item>
+                          <widget class="QLabel" name="label_23">
+                           <property name="text">
+                            <string>Lista de Reservatórios Cadastrados:</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QTableWidget" name="tb_reservatorio">
+                           <property name="enabled">
+                            <bool>false</bool>
+                           </property>
+                           <property name="tabletTracking">
+                            <bool>false</bool>
+                           </property>
+                           <property name="editTriggers">
+                            <set>QAbstractItemView::AnyKeyPressed|QAbstractItemView::DoubleClicked|QAbstractItemView::EditKeyPressed</set>
+                           </property>
+                           <property name="dragEnabled">
+                            <bool>false</bool>
+                           </property>
+                           <property name="alternatingRowColors">
+                            <bool>true</bool>
+                           </property>
+                           <property name="selectionBehavior">
+                            <enum>QAbstractItemView::SelectRows</enum>
+                           </property>
+                           <property name="sortingEnabled">
+                            <bool>true</bool>
+                           </property>
+                           <property name="cornerButtonEnabled">
+                            <bool>false</bool>
+                           </property>
+                           <attribute name="horizontalHeaderCascadingSectionResizes">
+                            <bool>false</bool>
+                           </attribute>
+                           <attribute name="verticalHeaderVisible">
+                            <bool>false</bool>
+                           </attribute>
+                           <attribute name="verticalHeaderShowSortIndicator" stdset="0">
+                            <bool>false</bool>
+                           </attribute>
+                           <column>
+                            <property name="text">
+                             <string>ID</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string extracomment="Nome Reservatório">FT00</string>
+                            </property>
+                            <property name="toolTip">
+                             <string/>
+                            </property>
+                            <property name="whatsThis">
+                             <string/>
+                            </property>
+                            <property name="font">
+                             <font>
+                              <weight>50</weight>
+                              <bold>false</bold>
+                             </font>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT01</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT02</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT03</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT04</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT05</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT06</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT07</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT08</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT09</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT10</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT11</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT12</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT13</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT14</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT15</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT16</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT17</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT18</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT19</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT20</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT21</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT22</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT23</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT24</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT25</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT26</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT27</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT28</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT29</string>
+                            </property>
+                           </column>
+                           <column>
+                            <property name="text">
+                             <string>FT30</string>
+                            </property>
+                           </column>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QPushButton" name="btn_excluir_2">
+                           <property name="enabled">
+                            <bool>false</bool>
+                           </property>
+                           <property name="minimumSize">
+                            <size>
+                             <width>100</width>
+                             <height>30</height>
+                            </size>
+                           </property>
+                           <property name="cursor">
+                            <cursorShape>PointingHandCursor</cursorShape>
+                           </property>
+                           <property name="text">
+                            <string>Excluir Reservatório</string>
+                           </property>
+                          </widget>
+                         </item>
+                         <item>
+                          <widget class="QPushButton" name="btn_alterar_2">
+                           <property name="enabled">
+                            <bool>false</bool>
+                           </property>
+                           <property name="minimumSize">
+                            <size>
+                             <width>100</width>
+                             <height>30</height>
+                            </size>
+                           </property>
+                           <property name="cursor">
+                            <cursorShape>PointingHandCursor</cursorShape>
+                           </property>
+                           <property name="text">
+                            <string>Alterar Reservatorio</string>
+                           </property>
+                          </widget>
+                         </item>
+                        </layout>
+                       </widget>
+                      </item>
+                     </layout>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QFrame" name="frame_2">
+                  <property name="frameShape">
+                   <enum>QFrame::StyledPanel</enum>
+                  </property>
+                  <property name="frameShadow">
+                   <enum>QFrame::Raised</enum>
+                  </property>
+                  <layout class="QHBoxLayout" name="horizontalLayout_4">
+                   <item>
+                    <widget class="QProgressBar" name="progressBar">
+                     <property name="value">
+                      <number>0</number>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QDialogButtonBox" name="button_box">
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                     <property name="standardButtons">
+                      <set>QDialogButtonBox::Cancel</set>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="pushButton">
+                     <property name="text">
+                      <string>Gerar Curva CAV</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+              <widget class="QWidget" name="tab_3">
+               <attribute name="title">
+                <string>Ficha do Reservatorio</string>
+               </attribute>
+               <layout class="QVBoxLayout" name="verticalLayout_3">
+                <item>
+                 <widget class="QScrollArea" name="scrollArea">
+                  <property name="sizePolicy">
+                   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                   </sizepolicy>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>16777215</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="sizeIncrement">
+                   <size>
+                    <width>0</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="sizeAdjustPolicy">
+                   <enum>QAbstractScrollArea::AdjustToContentsOnFirstShow</enum>
+                  </property>
+                  <property name="widgetResizable">
+                   <bool>true</bool>
+                  </property>
+                  <widget class="QWidget" name="scrollAreaWidgetContents">
+                   <property name="geometry">
+                    <rect>
+                     <x>0</x>
+                     <y>0</y>
+                     <width>369</width>
+                     <height>821</height>
+                    </rect>
+                   </property>
+                   <layout class="QFormLayout" name="formLayout">
+                    <item row="2" column="0">
+                     <widget class="QLabel" name="label_2">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="text">
+                       <string>Empresa</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="3" column="0">
+                     <widget class="QLabel" name="label_17">
+                      <property name="text">
+                       <string>UF</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="3" column="1">
+                     <widget class="QLineEdit" name="FT002"/>
+                    </item>
+                    <item row="4" column="0">
+                     <widget class="QLabel" name="label_39">
+                      <property name="text">
+                       <string>Município Margem Direita</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="4" column="1">
+                     <widget class="QLineEdit" name="FT003"/>
+                    </item>
+                    <item row="5" column="0">
+                     <widget class="QLabel" name="label_32">
+                      <property name="text">
+                       <string>Município Margem Esquerda</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="5" column="1">
+                     <widget class="QLineEdit" name="FT004"/>
+                    </item>
+                    <item row="6" column="0">
+                     <widget class="QLabel" name="label_18">
+                      <property name="text">
+                       <string>Bacia Hidrográfica</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="6" column="1">
+                     <widget class="QLineEdit" name="FT005"/>
+                    </item>
+                    <item row="7" column="0">
+                     <widget class="QLabel" name="label_35">
+                      <property name="text">
+                       <string>Sub-Bacia Hidrográfica</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="7" column="1">
+                     <widget class="QLineEdit" name="FT006"/>
+                    </item>
+                    <item row="8" column="0">
+                     <widget class="QLabel" name="label_33">
+                      <property name="text">
+                       <string>Rio</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="8" column="1">
+                     <widget class="QLineEdit" name="FT007"/>
+                    </item>
+                    <item row="9" column="0">
+                     <widget class="QLabel" name="label_36">
+                      <property name="text">
+                       <string>Potência Instalada (MW)</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="9" column="1">
+                     <widget class="QLineEdit" name="FT008"/>
+                    </item>
+                    <item row="10" column="0">
+                     <widget class="QLabel" name="label_19">
+                      <property name="text">
+                       <string>Vazão Média de Longo Termo (m3/S)</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="10" column="1">
+                     <widget class="QLineEdit" name="FT009"/>
+                    </item>
+                    <item row="11" column="0">
+                     <widget class="QLabel" name="label_41">
+                      <property name="text">
+                       <string>Latitude / Longitude do Barramento</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="11" column="1">
+                     <widget class="QLineEdit" name="FT010"/>
+                    </item>
+                    <item row="12" column="0">
+                     <widget class="QLabel" name="label_42">
+                      <property name="text">
+                       <string>Área de Drenagem Total  da UHE (km²)</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="12" column="1">
+                     <widget class="QLineEdit" name="FT011"/>
+                    </item>
+                    <item row="13" column="0">
+                     <widget class="QLabel" name="label_43">
+                      <property name="text">
+                       <string>Área Incremental da UHE (km²)</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="13" column="1">
+                     <widget class="QLineEdit" name="FT012"/>
+                    </item>
+                    <item row="14" column="0">
+                     <widget class="QLabel" name="label_46">
+                      <property name="text">
+                       <string>Área Inundada Original (km²)</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="14" column="1">
+                     <widget class="QLineEdit" name="FT013"/>
+                    </item>
+                    <item row="15" column="0">
+                     <widget class="QLabel" name="label_45">
+                      <property name="text">
+                       <string>Área Inundada Atualizada (km²)</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="15" column="1">
+                     <widget class="QLineEdit" name="FT014"/>
+                    </item>
+                    <item row="16" column="0">
+                     <widget class="QLabel" name="label_44">
+                      <property name="text">
+                       <string>Volume Útil Original (hm3)</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="16" column="1">
+                     <widget class="QLineEdit" name="FT015"/>
+                    </item>
+                    <item row="17" column="0">
+                     <widget class="QLabel" name="label_34">
+                      <property name="text">
+                       <string>Volume Útil Atualizado (hm3)</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="17" column="1">
+                     <widget class="QLineEdit" name="FT016"/>
+                    </item>
+                    <item row="18" column="0">
+                     <widget class="QLabel" name="label_30">
+                      <property name="text">
+                       <string>Volume Máximo Normal Original (Hm³ )</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="18" column="1">
+                     <widget class="QLineEdit" name="FT017">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="19" column="0">
+                     <widget class="QLabel" name="label_28">
+                      <property name="text">
+                       <string>Volume Máximo Normal Atualizado (Hm³ )</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="19" column="1">
+                     <widget class="QLineEdit" name="FT018"/>
+                    </item>
+                    <item row="20" column="0">
+                     <widget class="QLabel" name="label_21">
+                      <property name="text">
+                       <string>Volume Máximo Maximorum Original (Hm³ )</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="20" column="1">
+                     <widget class="QLineEdit" name="FT019"/>
+                    </item>
+                    <item row="21" column="0">
+                     <widget class="QLabel" name="label_20">
+                      <property name="text">
+                       <string>Volume Máximo Maximorum Atualizado (Hm³ )</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="21" column="1">
+                     <widget class="QLineEdit" name="FT020"/>
+                    </item>
+                    <item row="22" column="0">
+                     <widget class="QLabel" name="label_40">
+                      <property name="text">
+                       <string>N.A Montante (Sistema Local) (m) -  (Max. Maximorum)</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="22" column="1">
+                     <widget class="QLineEdit" name="FT021"/>
+                    </item>
+                    <item row="23" column="0">
+                     <widget class="QLabel" name="label_47">
+                      <property name="text">
+                       <string>N.A Montante (Sistema Local) (m) -  (Max. Normal)</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="23" column="1">
+                     <widget class="QLineEdit" name="FT022"/>
+                    </item>
+                    <item row="24" column="0">
+                     <widget class="QLabel" name="label_48">
+                      <property name="text">
+                       <string>N.A Montante (Sistema Local) (m) -  (Min. Normal)</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="24" column="1">
+                     <widget class="QLineEdit" name="FT023"/>
+                    </item>
+                    <item row="25" column="0">
+                     <widget class="QLabel" name="label_29">
+                      <property name="text">
+                       <string>N.A. Jusante (Sistema Local) (m) -  (Max. Normal)</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="25" column="1">
+                     <widget class="QLineEdit" name="FT024"/>
+                    </item>
+                    <item row="26" column="0">
+                     <widget class="QLabel" name="label_22">
+                      <property name="text">
+                       <string>Potencial de Produção de Sedimentos (ton/km2/ano)</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="26" column="1">
+                     <widget class="QLineEdit" name="FT025"/>
+                    </item>
+                    <item row="27" column="0">
+                     <widget class="QLabel" name="label_38">
+                      <property name="text">
+                       <string>Regime de Operação do Reservatório (Ror)</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="27" column="1">
+                     <widget class="QLineEdit" name="FT026"/>
+                    </item>
+                    <item row="28" column="0">
+                     <widget class="QLabel" name="label_37">
+                      <property name="text">
+                       <string>Posição Relativa da Cascata (Prc)</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="28" column="1">
+                     <widget class="QLineEdit" name="FT027"/>
+                    </item>
+                    <item row="29" column="0">
+                     <widget class="QLabel" name="label_31">
+                      <property name="text">
+                       <string>Magnitude e Importância dos efeitos do assoreamento (MI) </string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="29" column="1">
+                     <widget class="QLineEdit" name="FT028"/>
+                    </item>
+                    <item row="30" column="0">
+                     <widget class="QLabel" name="label_25">
+                      <property name="text">
+                       <string>Nível de Criticidade  (NC) </string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="30" column="1">
+                     <widget class="QLineEdit" name="FT029"/>
+                    </item>
+                    <item row="31" column="0">
+                     <widget class="QLabel" name="label_27">
+                      <property name="text">
+                       <string>Data de atualização da CAV</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="31" column="1">
+                     <widget class="QLineEdit" name="FT030"/>
+                    </item>
+                    <item row="2" column="1">
+                     <widget class="QLineEdit" name="FT001">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="1">
+                     <widget class="QLineEdit" name="FT000">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="0">
+                     <widget class="QLabel" name="label_7">
+                      <property name="sizePolicy">
+                       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+                        <horstretch>0</horstretch>
+                        <verstretch>0</verstretch>
+                       </sizepolicy>
+                      </property>
+                      <property name="text">
+                       <string>Nome</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </widget>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="FT_cadastrar">
+                  <property name="text">
+                   <string>Cadastrar</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="pg_contatos">
+           <layout class="QVBoxLayout" name="verticalLayout_13">
+            <item>
+             <widget class="QLabel" name="label_8">
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:600;&quot;&gt;Contatos:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_9">
+              <property name="text">
+               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/plugins/CAV/simbolos/www.png&quot; /&gt;   &lt;span style=&quot; font-size:16pt;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;https://gphidro.com.br/&quot;&gt;&lt;span style=&quot; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;https://gphidro.com.br&lt;/span&gt;&lt;/a&gt;&lt;a href=&quot;https://gphidro.com.br/&quot;&gt;&lt;span style=&quot; font-size:16pt; text-decoration: underline; color:#0000ff;&quot;&gt;/&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="openExternalLinks">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_12">
+              <property name="text">
+               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/plugins/CAV/simbolos/facebook.png&quot; /&gt;     &lt;a href=&quot;https://www.facebook.com/geplhufv2&quot;&gt;&lt;span style=&quot; font-size:18pt; text-decoration: underline; color:#0000ff; vertical-align:super;&quot;&gt;Facebook&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="openExternalLinks">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_13">
+              <property name="text">
+               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/plugins/CAV/simbolos/instagram.png&quot; /&gt;    &lt;span style=&quot; font-size:12pt;&quot;&gt; &lt;/span&gt;&lt;a href=&quot;https://www.instagram.com/gphidro/&quot;&gt;&lt;span style=&quot; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;Instagram&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="openExternalLinks">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_14">
+              <property name="text">
+               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/plugins/CAV/simbolos/linkedin.png&quot; /&gt;     &lt;a href=&quot;https://www.linkedin.com/in/gphidro&quot;&gt;&lt;span style=&quot; font-size:12pt; text-decoration: underline; color:#0000ff;&quot;&gt;Likedin&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="openExternalLinks">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_10">
+              <property name="text">
+               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/plugins/CAV/simbolos/email.png&quot; /&gt;     &lt;span style=&quot; font-size:12pt;&quot;&gt;gphidro@gmail.com&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_11">
+              <property name="text">
+               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/plugins/CAV/simbolos/whatsApp.png&quot; /&gt;     &lt;span style=&quot; font-size:16pt; vertical-align:super;&quot;&gt;(031) 9 97154 - 2379&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="pg_about">
+           <layout class="QVBoxLayout" name="verticalLayout_12">
+            <item>
+             <widget class="QLabel" name="label_24">
+              <property name="frameShape">
+               <enum>QFrame::NoFrame</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Plain</enum>
+              </property>
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:100pt; color:#018fc3;&quot;&gt;GP&lt;/span&gt;&lt;span style=&quot; font-size:100pt; color:#005399;&quot;&gt;HIDRO&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+              <property name="wordWrap">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_16">
+              <property name="text">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'DroidSansRegular','Helvetica Neue','Helvetica','Helvetica','Arial','sans-serif'; font-size:13px; font-weight:600; color:#000000;&quot;&gt;O grupo realiza principalmente atividades com pesquisa, ensino e extensão na área de Hidrografia, no entanto, também atua em áreas correlatas, inerentes às tarefas hidrográficas, tais como Geodésia, Topografia e Aerolevantamento. O GPHIDRO promove cursos e palestras, bem como prestação de consultorias, objetivando levar conhecimento e experiência para todos aqueles que querem aprender sobre Geomensura.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="wordWrap">
+               <bool>true</bool>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>btn_menu_sobre</tabstop>
+  <tabstop>tabWidget</tabstop>
+  <tabstop>btn_menu_cav</tabstop>
+  <tabstop>btn_menu_contatos</tabstop>
+  <tabstop>pushButton</tabstop>
+  <tabstop>scrollArea</tabstop>
+  <tabstop>FT001</tabstop>
+  <tabstop>FT002</tabstop>
+  <tabstop>FT003</tabstop>
+  <tabstop>FT004</tabstop>
+  <tabstop>FT005</tabstop>
+  <tabstop>FT006</tabstop>
+  <tabstop>FT007</tabstop>
+  <tabstop>FT008</tabstop>
+  <tabstop>FT009</tabstop>
+  <tabstop>FT010</tabstop>
+  <tabstop>FT011</tabstop>
+  <tabstop>FT012</tabstop>
+  <tabstop>FT013</tabstop>
+  <tabstop>FT014</tabstop>
+  <tabstop>FT015</tabstop>
+  <tabstop>FT016</tabstop>
+  <tabstop>FT017</tabstop>
+  <tabstop>FT018</tabstop>
+  <tabstop>FT019</tabstop>
+  <tabstop>FT020</tabstop>
+  <tabstop>FT021</tabstop>
+  <tabstop>FT022</tabstop>
+  <tabstop>FT023</tabstop>
+  <tabstop>FT024</tabstop>
+  <tabstop>FT025</tabstop>
+  <tabstop>FT026</tabstop>
+  <tabstop>FT027</tabstop>
+  <tabstop>FT028</tabstop>
+  <tabstop>FT029</tabstop>
+  <tabstop>FT030</tabstop>
+  <tabstop>FT_cadastrar</tabstop>
+ </tabstops>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>button_box</sender>
+   <signal>rejected()</signal>
+   <receiver>CAVDialogBase</receiver>
+   <slot>reject()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>button_box</sender>
+   <signal>accepted()</signal>
+   <receiver>CAVDialogBase</receiver>
+   <slot>accept()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>20</x>
+     <y>20</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
