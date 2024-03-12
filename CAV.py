@@ -26,6 +26,8 @@ referente a determinada cota de um modelo digital de terreno.
  *                                                                         *
  ***************************************************************************/
 """
+
+"12032024"
 from qgis.PyQt.QtCore import QSettings, QTranslator, QCoreApplication, QVariant, QStandardPaths
 from qgis.PyQt.QtGui import QIcon
 from qgis.PyQt.QtWidgets import QAction, QFileDialog, QTableWidgetItem, QMessageBox, QProgressBar, QListWidget, QWidget
