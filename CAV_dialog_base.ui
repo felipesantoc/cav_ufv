@@ -1458,9 +1458,6 @@ p, li { white-space: pre-wrap; }
   <tabstop>FT030</tabstop>
   <tabstop>FT_cadastrar</tabstop>
  </tabstops>
- <resources>
-  <include location="resources.qrc"/>
- </resources>
  <connections>
   <connection>
    <sender>button_box</sender>

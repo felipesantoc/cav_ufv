@@ -13,7 +13,7 @@ email=oliveirajc@ufv.br
 about=calculo da Cota Area Volume a partir de um modelo digital do Terreno
 
 tracker=https://github.com/felipesantoc/cav_ufv/issues
-repo=https://github.com/felipesantoc/cav_ufv
+repository=https://github.com/felipesantoc/cav_ufv
 # End of mandatory metadata
 
 
@@ -27,7 +27,7 @@ hasProcessingProvider=no
 # Tags are comma separated with spaces allowed
 tags=python
 
-homepage=http://homepage
+homepage=https://github.com/felipesantoc/cav_ufv
 category=Plugins
 icon=icon.png
 # experimental flag

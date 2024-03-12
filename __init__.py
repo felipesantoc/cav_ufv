@@ -24,11 +24,48 @@
 """
 
 # noinspection PyPep8Naming
+
+
 def classFactory(iface):  # pylint: disable=invalid-name
     """Load CAV class from file CAV.
 
     :param iface: A QGIS interface instance.
     :type iface: QgsInterface
     """
+    import subprocess
+
+    def instalar_biblioteca(biblioteca):
+        try:
+            # Tenta importar a biblioteca
+            __import__(biblioteca)
+        except ImportError:
+            # Se não conseguir importar, instala a biblioteca usando o pip
+            subprocess.call(['pip', 'install', biblioteca])
+            print(f'Biblioteca {biblioteca} instalada com sucesso.')
+        else:
+            print(f'Biblioteca {biblioteca} já está instalada.')
+
+        # Exemplo de uso
+        bibliotecas_necessarias = ['numpy', 'matplotlib', 'reportlab', 'resources', 'sqlite3', 'pandas', 'processing']
+        for biblioteca in bibliotecas_necessarias:
+            instalar_biblioteca(biblioteca)
+
     from .CAV import CAV
     return CAV(iface)
+
+
+import os.path
+import processing
+import os
+import matplotlib.pyplot as plt
+import numpy as np
+def r2_score_manual(y_true, y_pred):
+    ss_res = np.sum((y_true - y_pred) ** 2)
+    ss_tot = np.sum((y_true - np.mean(y_true)) ** 2)
+    r2_score = 1 - (ss_res / ss_tot)
+    return r2_score
+
+
+import reportlab.lib.pagesizes as pagina
+import sqlite3
+import pandas as pd
