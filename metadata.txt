@@ -6,11 +6,11 @@
 name=CAV
 qgisMinimumVersion=3.0
 description=cota area volume
-version=1
+version=1.1.1
 author=JC
 email=oliveirajc@ufv.br
 
-about=calculo da Cota Area Volume a partir de um modelo digital do Terreno
+about=Este plugin é resultado de um projeto de pesquisa desenvolvido em colaboração entre a Universidade Federal de Viçosa e o Ministério da Integração e do Desenvolvimento Regional. A ferramenta é capaz de realizar cálculos de volume e área para cotas específicas de um modelo digital de terreno, produzindo um relatório em PDF com os dados da área estudada, um gráfico que ilustra a relação entre cota, área e volume, além de uma tabela no formato CSV que detalha cota, volume e área do modelo em questão. A inserção de dois modelos digitais de terreno permite a realização de comparações e análises estatísticas sobre processos de assoreamento. Para utilizar a aplicação, é necessário ter disponíveis um ou dois modelos raster (sendo um de Referência e o outro Atualizado), que representem uma área de reservatório, e uma camada vetorial que defina os limites da área a ser analisada.
 
 tracker=https://github.com/felipesantoc/cav_ufv/issues
 repository=https://github.com/felipesantoc/cav_ufv
