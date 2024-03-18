@@ -5,7 +5,7 @@
 [general]
 name=CAV
 qgisMinimumVersion=3.0
-description=cota area volume
+description=Este plugin realiza cálculos, comparações e análises estatísticas do volume e da área correspondentes a uma cota específica de um modelo digital de terreno.
 version=1.1.1
 author=JC
 email=oliveirajc@ufv.br
