@@ -65,6 +65,10 @@ def r2_score_manual(y_true, y_pred):
     r2_score = 1 - (ss_res / ss_tot)
     return r2_score
 
+import sys
+plugin_path = os.path.dirname(__file__)
+print('plugin_path =', plugin_path)
+sys.path.append(os.path.join(os.path.join(plugin_path,'libs')))
 
 import reportlab.lib.pagesizes as pagina
 import sqlite3

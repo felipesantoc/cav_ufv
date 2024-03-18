@@ -5,12 +5,12 @@
 [general]
 name=CAV
 qgisMinimumVersion=3.0
-description=Este plugin realiza cálculos, comparações e análises estatísticas do volume e da área correspondentes a uma cota específica de um modelo digital de terreno.
+description=cota area volume
 version=1.1.1
 author=JC
 email=oliveirajc@ufv.br
 
-about=Este plugin é resultado de um projeto de pesquisa desenvolvido em colaboração entre a Universidade Federal de Viçosa e o Ministério da Integração e do Desenvolvimento Regional. A ferramenta é capaz de realizar cálculos de volume e área para cotas específicas de um modelo digital de terreno, produzindo um relatório em PDF com os dados da área estudada, um gráfico que ilustra a relação entre cota, área e volume, além de uma tabela no formato CSV que detalha cota, volume e área do modelo em questão. A inserção de dois modelos digitais de terreno permite a realização de comparações e análises estatísticas sobre processos de assoreamento. Para utilizar a aplicação, é necessário ter disponíveis um ou dois modelos raster (sendo um de Referência e o outro Atualizado), que representem uma área de reservatório, e uma camada vetorial que defina os limites da área a ser analisada.
+about=calculo da Cota Area Volume a partir de um modelo digital do Terreno
 
 tracker=https://github.com/felipesantoc/cav_ufv/issues
 repository=https://github.com/felipesantoc/cav_ufv
@@ -39,10 +39,10 @@ deprecated=False
 # Since QGIS 3.8, a comma separated list of plugins to be installed
 # (or upgraded) can be specified.
 # Check the documentation for more information.
-# plugin_dependencies=
+# plugin_dependencies= qpip
 
 Category of the plugin: Raster, Vector, Database or Web
-# category=
+# category= plugin
 
 # If the plugin can run on QGIS Server.
 server=False

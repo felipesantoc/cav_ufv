@@ -1,0 +1,3 @@
+python -m pip install reportlab
+python -m pip install staty
+python -m pip install resources
